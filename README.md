@@ -1,5 +1,12 @@
-### Hi there 👋
 
+##Hey, I'm Tanush a first year student at University of California, Irvine.  
+I'm passionate about computer science and want to learn more. I have experience in Python and a bit of experience in web development, but not very much.
+I love solving problems and I am working to get better at coding and learn more. 
+
+###What I'm currently working on:
+
+
+###Connect with me
 <!--
 **TanushGo/TanushGo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
