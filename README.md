@@ -1,6 +1,6 @@
 
-## Hey, I'm Tanush a first year student at University of California, Irvine.  
-I'm passionate about computer science and want to learn more. I have experience in Python and a bit of experience in web development, but not very much.
+## Hey, I'm Tanush a first year student at University of California, Irvine. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+I'm passionate about computer science and want to learn more. I have experience in Python, MySQL and a bit of experience in web development, but not very much.
 I love solving problems and I am working to get better at coding and learn more. 
 
 ### What I'm currently working on:
