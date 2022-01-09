@@ -1,6 +1,7 @@
 
 ## Hey, I'm Tanush a first year student at University of California, Irvine. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-I'm passionate about computer science and want to learn more. I have experience in Python, MySQL and a bit of experience in web development, but not very much.
+I'm passionate about computer science and want to learn more. I have experience in Python
+<img height='20' src="https://cdn.worldvectorlogo.com/logos/python-5.svg"> , MySQL <img height='20' src="https://freepikpsd.com/file/2019/11/210889_mysql-logo-transparent-png-Images.png"> and a bit of experience in *web development*, but not very much.
 I love solving problems and I am working to get better at coding and learn more. Explore my current repository to see what I've worked on. I will be adding more repositories
 in the future as I work on different projects.
 
@@ -12,17 +13,6 @@ in the future as I work on different projects.
 ### Connect with me
 <a href="https://linkedin.com/in/tanush-goel-51493b222" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"  height="30" width="40" /></a>
 <a href="https://instagram.com/tanushgoel03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a>
-<!--
-**TanushGo/TanushGo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
