@@ -15,4 +15,3 @@ in the future as I work on different projects.
 <a href="https://instagram.com/tanushgoel03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a>
 
 
-hi
