@@ -1,5 +1,5 @@
 
-## Hey, I'm Tanush a second year student at University of California, Irvine. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+## Hey, I'm Tanush a third year student at University of California, Irvine. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 I'm passionate about computer science and want to learn more. I have experience in Python
 <img height='20' src="https://cdn.worldvectorlogo.com/logos/python-5.svg"> , MySQL <img height='20' src="https://freepikpsd.com/file/2019/11/210889_mysql-logo-transparent-png-Images.png"> and a bit of experience in *web development*, but not very much.
 I love solving problems and I am working to get better at coding and learn more. Explore my current repository to see what I've worked on. I will be adding more repositories
