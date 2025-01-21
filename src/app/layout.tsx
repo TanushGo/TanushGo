@@ -56,7 +56,7 @@ export default function RootLayout({
       >
         <main className="dark:bg-gray-800 w-full">
         <Navbar userInfo={meta}/>
-        <div>{children}</div>
+        <div className="pt-20">{children}</div>
         <Footer />
         </main>
         

@@ -1,64 +1,63 @@
-import React from "react";
-
-interface ExperienceInfo {
-    experience: ExperienceItem[];
-}
-
-interface ExperienceItem {
+interface WorkExperience {
     title: string;
-    desc: string;
-    year: string;
     company: string;
     companyLink: string;
-}
-
-export default function Experience(userInfo: ExperienceInfo) {
+    date: string;
+    desc: string[];
+  }
+  
+  interface ExperienceProps {
+    experiences: WorkExperience[];
+  }
+  
+  export default function Experience({ experiences }: ExperienceProps) {
     return (
-        <section className="bg-white dark:bg-gray-800">
-            <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-                <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-                    Experience
-                </h1>
-            </div>
-            <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-                <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
-                    {userInfo.experience.map((exp: ExperienceItem, idx: number) => (
-                        <>
-                            <ExperienceCard
-                                key={idx}
-                                title={exp.title}
-                                desc={exp.desc}
-                                year={exp.year}
-                                company={exp.company}
-                                companyLink={exp.companyLink}
-                            />
-                            {idx === userInfo.experience.length - 1 ? null : (
-                                <div className="divider-container flex flex-col items-center -mt-2">
-                                    <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
-                                        <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
-                                    </div>
-                                    <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
-                                </div>
-                            )}
-                        </>
-                    ))}
-                </div>
-            </div>
-        </section>
+      <section className="w-full py-8 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-8 md:gap-12">
+            {experiences.map((exp: WorkExperience, idx: number) => (
+              <ExperienceCard
+                key={idx}
+                title={exp.title}
+                desc={exp.desc}
+                date={exp.date}
+                company={exp.company}
+                companyLink={exp.companyLink}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
     );
-}
-
-const ExperienceCard = ({ title, desc, year, company, companyLink }: { title: string, desc: string, year: string, company: string, companyLink: string }) => {
-  return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
-        {year}
-      </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
-      <a href={companyLink} className="text-gray-500">
-        {company}
-      </a>
-      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
-    </div>
-  );
-};
+  }
+  
+  const ExperienceCard = ({ title, desc, date, company, companyLink }: { 
+    title: string, 
+    desc: string[], 
+    date: string, 
+    company: string, 
+    companyLink: string 
+  }) => {
+    return (
+      <div className="relative p-4 sm:p-6 lg:p-8 rounded-xl shadow-xl bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-2xl">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+          <div>
+            <h1 className="font-semibold text-xl md:text-2xl mb-2">{title}</h1>
+            <a href={companyLink} className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors">
+              {company}
+            </a>
+          </div>
+          <span className="text-gray-400 dark:text-gray-500 text-lg md:text-xl font-medium mt-2 md:mt-0">
+            {date}
+          </span>
+        </div>
+        <ul className="space-y-2 text-gray-600 dark:text-gray-400">
+          {desc.map((item, index) => (
+            <li key={index} className="text-sm md:text-base">
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
